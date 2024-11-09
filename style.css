@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#Task {
+    width: 600px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #0000006a;
+    font-size: 24px;
+}
+
+#button {
+    padding: 13.5px 20px;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #0000006a;
+}
+
+#button:hover {
+    border-bottom: solid 2px red;
+    transform: scale(0.9);
+}
+
+#not li {
+    list-style: none;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#not i, #Completed i {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+#Completed li {
+    background-color: green;
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.7;
+}
